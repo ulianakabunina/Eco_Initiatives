@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "188348634225",
+    "project_id": "ecoinitiatives",
+    "storage_bucket": "ecoinitiatives.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188348634225:android:ebcde85279ffdc7bd337d0",
+        "android_client_info": {
+          "package_name": "com.example.ecoinitiatives"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4sRiDudfT9yFUQXnI0how3w9aT1s9zx0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

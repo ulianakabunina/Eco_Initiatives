@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_create_initiative"
+        android:title="Создать инициативу"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_my_initiatives"
+        android:title="Мои инициативы"
+        android:icon="@android:drawable/ic_menu_edit"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_logout"
+        android:title="Выйти"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        app:showAsAction="never"/>
+
+</menu>
