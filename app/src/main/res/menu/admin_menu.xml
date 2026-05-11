@@ -3,15 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/action_my_initiatives"
-        android:title="Мои инициативы"
-        android:icon="@android:drawable/ic_menu_edit"
-        app:showAsAction="never"/>
-
-    <item
         android:id="@+id/action_logout"
         android:title="Выйти"
         android:icon="@android:drawable/ic_menu_close_clear_cancel"
-        app:showAsAction="never"/>
+        app:showAsAction="ifRoom"/>
 
 </menu>

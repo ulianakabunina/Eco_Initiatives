@@ -6,48 +6,65 @@
     android:padding="16dp"
     android:gravity="center">
 
+    <!-- Заголовок -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Эко-Инициативы"
         android:textSize="28sp"
         android:textStyle="bold"
-        android:layout_marginBottom="32dp"/>
+        android:textColor="#2E7D32"
+        android:layout_marginBottom="48dp"/>
 
+    <!-- Поле для логина -->
     <EditText
         android:id="@+id/etLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Логин"
         android:inputType="text"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="16dp"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"/>
 
+    <!-- Поле для пароля -->
     <EditText
         android:id="@+id/etPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Пароль"
         android:inputType="textPassword"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="24dp"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"/>
 
+    <!-- Кнопка входа -->
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Войти"
-        android:layout_marginBottom="8dp"/>
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:backgroundTint="#2E7D32"
+        android:layout_marginBottom="16dp"/>
 
+    <!-- Кнопка регистрации (стилизована как текстовая кнопка) -->
     <Button
         android:id="@+id/btnRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Регистрация"
-        style="?android:attr/borderlessButtonStyle"/>
+        android:text="Нет аккаунта? Зарегистрироваться"
+        android:textSize="14sp"
+        style="?android:attr/borderlessButtonStyle"
+        android:textColor="#4CAF50"/>
 
+    <!-- ProgressBar -->
     <ProgressBar
         android:id="@+id/progressBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:visibility="gone"/>
+        android:visibility="gone"
+        android:layout_marginTop="16dp"/>
 
 </LinearLayout>
