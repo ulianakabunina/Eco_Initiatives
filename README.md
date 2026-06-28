@@ -70,19 +70,33 @@
 
 app/src/main/java/com/example/ecoinitiatives/
 ├── activities/
+
 │   ├── LoginActivity.java        # Вход в систему
+
 │   ├── RegistrationActivity.java # Регистрация
+
 │   ├── MainActivity.java         # Главный экран пользователя
+
 │   ├── MyInitiativesActivity.java# Мои инициативы
+
 │   └── AdminActivity.java        # Панель администратора
+
 ├── adapters/
+
 │   ├── InitiativeAdapter.java    # Адаптер для инициатив
+
 │   ├── UserAdapter.java          # Адаптер для пользователей
+
 │   └── AdminInitiativeAdapter.java # Адаптер для админ-панели
+
 ├── model/
+
 │   ├── User.java                 # Модель пользователя
+
 │   └── Initiative.java           # Модель инициативы
+
 └── utils/
+
     └── (вспомогательные классы)
 
 ---
