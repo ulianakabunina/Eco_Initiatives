@@ -95,10 +95,6 @@ app/src/main/java/com/example/ecoinitiatives/
 
 │   └── Initiative.java           # Модель инициативы
 
-└── utils/
-
-    └── (вспомогательные классы)
-
 ---
 
 ## 🔐 Роли пользователей
