@@ -2,7 +2,7 @@
 
 Платформа для создания и поддержки экологических инициатив
 
-<img width="1254" height="1254" alt="ChatGPT Image 28 июн  2026 г , 18_57_59" src="https://github.com/user-attachments/assets/2bc5ac5a-cd1a-4ae8-a9db-cfa7e8dac29a" />
+<img width="1024" height="1024" alt="ChatGPT Image 28 июн  2026 г , 18_57_23" src="https://github.com/user-attachments/assets/9c59920b-3d8c-4cda-b1b8-eca44754ebb7" />
 
 ---
 
